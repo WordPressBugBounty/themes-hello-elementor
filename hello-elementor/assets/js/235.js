@@ -14,11 +14,7 @@ exports["default"] = void 0;
 var _ElementorLogo = __webpack_require__(4926);
 var _SvgIcon = _interopRequireDefault(__webpack_require__(6566));
 const BrandElementorIcon = () => {
-  return /*#__PURE__*/React.createElement(_SvgIcon.default, {
-    sx: {
-      fontSize: '1rem'
-    }
-  }, /*#__PURE__*/React.createElement(_ElementorLogo.ReactComponent, null));
+  return /*#__PURE__*/React.createElement(_SvgIcon.default, null, /*#__PURE__*/React.createElement(_ElementorLogo.ReactComponent, null));
 };
 var _default = exports["default"] = BrandElementorIcon;
 
@@ -35,14 +31,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1609);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _g;
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 
-const SvgElementorLogo = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-  xmlns: "http://www.w3.org/2000/svg",
-  fill: "none",
-  viewBox: "0 0 24 24"
-}, props), _g || (_g = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", {
-  fill: "#0C0D0E"
+const SvgElementorLogo = props => _g || (_g = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", {
+  fillOpacity: 0.54
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
   fillRule: "evenodd",
   d: "M8.293 15.811a7 7 0 1 1 0-14 7 7 0 0 1 0 14m0-13a6 6 0 1 0 0 12 6 6 0 0 0 0-12",
@@ -51,7 +42,7 @@ const SvgElementorLogo = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0_
   d: "M5.96 6.145h1v5h-1zM7.96 6.145h2.999v1h-3zM7.96 8.144h2.999v1h-3zM7.96 10.145h2.999v1h-3z"
 }))));
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJFbGVtZW50b3JMb2dvIj4KPGcgaWQ9IlZlY3RvciI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOC4yOTI5NyAxNS44MTEzQzQuNDI2OTggMTUuODExMyAxLjI5Mjk3IDEyLjY3NzMgMS4yOTI5NyA4LjgxMTI4QzEuMjkyOTcgNC45NDUyOSA0LjQyNjk4IDEuODExMjggOC4yOTI5NyAxLjgxMTI4QzEyLjE1OSAxLjgxMTI4IDE1LjI5MyA0Ljk0NTI5IDE1LjI5MyA4LjgxMTI4QzE1LjI5MyAxMi42NzczIDEyLjE1OSAxNS44MTEzIDguMjkyOTcgMTUuODExM1pNOC4yOTI5NyAyLjgxMTI4QzQuOTc5MjYgMi44MTEyOCAyLjI5Mjk3IDUuNDk3NTcgMi4yOTI5NyA4LjgxMTI4QzIuMjkyOTcgMTIuMTI1IDQuOTc5MjYgMTQuODExMyA4LjI5Mjk3IDE0LjgxMTNDMTEuNjA2NyAxNC44MTEzIDE0LjI5MyAxMi4xMjUgMTQuMjkzIDguODExMjhDMTQuMjkzIDUuNDk3NTcgMTEuNjA2NyAyLjgxMTI4IDguMjkyOTcgMi44MTEyOFoiIGZpbGw9IiMwQzBEMEUiLz4KPHBhdGggZD0iTTUuOTU5NjQgNi4xNDQ2MUg2Ljk1OTQ4VjExLjE0NDhINS45NTk2NFY2LjE0NDYxWiIgZmlsbD0iIzBDMEQwRSIvPgo8cGF0aCBkPSJNNy45NTkzNCA2LjE0NDYxSDEwLjk1ODlWNy4xNDQ0NUg3Ljk1OTM0VjYuMTQ0NjFaIiBmaWxsPSIjMEMwRDBFIi8+CjxwYXRoIGQ9Ik03Ljk1OTM0IDguMTQ0MzJIMTAuOTU4OVY5LjE0NDE2SDcuOTU5MzRWOC4xNDQzMloiIGZpbGw9IiMwQzBEMEUiLz4KPHBhdGggZD0iTTcuOTU5MzQgMTAuMTQ0OUgxMC45NTg5VjExLjE0NDhINy45NTkzNFYxMC4xNDQ5WiIgZmlsbD0iIzBDMEQwRSIvPgo8L2c+CjwvZz4KPC9zdmc+Cg==");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PGcgaWQ9IkVsZW1lbnRvckxvZ28iPgo8ZyBpZD0iVmVjdG9yIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjI5Mjk3IDE1LjgxMTNDNC40MjY5OCAxNS44MTEzIDEuMjkyOTcgMTIuNjc3MyAxLjI5Mjk3IDguODExMjhDMS4yOTI5NyA0Ljk0NTI5IDQuNDI2OTggMS44MTEyOCA4LjI5Mjk3IDEuODExMjhDMTIuMTU5IDEuODExMjggMTUuMjkzIDQuOTQ1MjkgMTUuMjkzIDguODExMjhDMTUuMjkzIDEyLjY3NzMgMTIuMTU5IDE1LjgxMTMgOC4yOTI5NyAxNS44MTEzWk04LjI5Mjk3IDIuODExMjhDNC45NzkyNiAyLjgxMTI4IDIuMjkyOTcgNS40OTc1NyAyLjI5Mjk3IDguODExMjhDMi4yOTI5NyAxMi4xMjUgNC45NzkyNiAxNC44MTEzIDguMjkyOTcgMTQuODExM0MxMS42MDY3IDE0LjgxMTMgMTQuMjkzIDEyLjEyNSAxNC4yOTMgOC44MTEyOEMxNC4yOTMgNS40OTc1NyAxMS42MDY3IDIuODExMjggOC4yOTI5NyAyLjgxMTI4WiIgZmlsbD0iYmxhY2siIGZpbGwtb3BhY2l0eT0iMC41NCIgLz4KPHBhdGggZD0iTTUuOTU5NjQgNi4xNDQ2MUg2Ljk1OTQ4VjExLjE0NDhINS45NTk2NFY2LjE0NDYxWiIgZmlsbD0iYmxhY2siIGZpbGwtb3BhY2l0eT0iMC41NCIgLz4KPHBhdGggZD0iTTcuOTU5MzQgNi4xNDQ2MUgxMC45NTg5VjcuMTQ0NDVINy45NTkzNFY2LjE0NDYxWiIgZmlsbD0iYmxhY2siIGZpbGwtb3BhY2l0eT0iMC41NCIgLz4KPHBhdGggZD0iTTcuOTU5MzQgOC4xNDQzMkgxMC45NTg5VjkuMTQ0MTZINy45NTkzNFY4LjE0NDMyWiIgZmlsbD0iYmxhY2siIGZpbGwtb3BhY2l0eT0iMC41NCIgLz4KPHBhdGggZD0iTTcuOTU5MzQgMTAuMTQ0OUgxMC45NTg5VjExLjE0NDhINy45NTkzNFYxMC4xNDQ5WiIgZmlsbD0iYmxhY2siIGZpbGwtb3BhY2l0eT0iMC41NCIgLz4KPC9nPgo8L2c+Cg==");
 
 /***/ }),
 

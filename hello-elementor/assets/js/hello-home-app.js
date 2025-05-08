@@ -6585,6 +6585,8 @@ const PromotionLink = _ref => {
     p: 3
   };
   paperSx.backgroundImage = backgroundImage ? `url(${backgroundImage})` : null;
+  paperSx.backgroundColor = backgroundImage ? 'transparent' : null;
+  paperSx.color = backgroundImage ? 'rgb(12, 13, 14)' : null;
   const stackSx = horizontalLayout ? {
     flex: 0.6,
     alignItems: 'center',
@@ -8427,7 +8429,7 @@ const QuickLinks = () => {
     sx: {
       color: 'text.primary'
     }
-  }, (0, _i18n.__)('Quick links', 'hello-elementor')), /*#__PURE__*/React.createElement(_Typography.default, {
+  }, (0, _i18n.__)('Quick Links', 'hello-elementor')), /*#__PURE__*/React.createElement(_Typography.default, {
     variant: "body2",
     sx: {
       mb: 3
