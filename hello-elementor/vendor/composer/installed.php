@@ -3,7 +3,7 @@
         'name' => 'elementor/hello-theme',
         'pretty_version' => '3.4.x-dev',
         'version' => '3.4.9999999.9999999-dev',
-        'reference' => '2ee1d14245722ae200ae5b882b0a93525ee96520',
+        'reference' => '39d2673ca273654ead92b5d804e130ed4930cd63',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'elementor/hello-theme' => array(
             'pretty_version' => '3.4.x-dev',
             'version' => '3.4.9999999.9999999-dev',
-            'reference' => '2ee1d14245722ae200ae5b882b0a93525ee96520',
+            'reference' => '39d2673ca273654ead92b5d804e130ed4930cd63',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
